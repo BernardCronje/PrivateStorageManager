@@ -64,6 +64,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="CommonManager\AppManager.cs" />
+    <Compile Include="UserControls\ucAddNewStorageUnit.xaml.cs">
+      <DependentUpon>ucAddNewStorageUnit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ucMenu.xaml.cs">
       <DependentUpon>ucMenu.xaml</DependentUpon>
     </Compile>
@@ -79,6 +82,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControls\ucAddNewStorageUnit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControls\ucMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

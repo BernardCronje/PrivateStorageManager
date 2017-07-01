@@ -18,3 +18,5 @@ C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageM
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\App.baml
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucMenu.g.cs
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucMenu.baml
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucAddNewStorageUnit.g.cs
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucAddNewStorageUnit.baml

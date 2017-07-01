@@ -24,22 +24,31 @@
             <Border Grid.Row="1" Grid.ColumnSpan="3" Background="Transparent" BorderBrush="WhiteSmoke" 
                     BorderThickness="2" Margin="10" CornerRadius="5"/>
             <TextBlock Text="Storage Units" Grid.Row="1" Grid.Column="0" Margin="30 20 0 0" Foreground="Gray" FontSize="15" FontWeight="Bold"/>
-            <Button Style="{StaticResource MenuButton}" Content="Add New" Grid.Row="1" Grid.Column="0"/>
-            <Button Style="{StaticResource MenuButton}" Content="Edit" Grid.Row="1" Grid.Column="1" />
-            <Button Style="{StaticResource MenuButton}" Content="Remove" Grid.Row="1" Grid.Column="2" />
+            <Button Style="{StaticResource MenuButton}" Content="Add New" Grid.Row="1" Grid.Column="0" 
+                    Click="RouteMenuButtonClick" CommandParameter="AddNewStorageUnit"/>
+            <Button Style="{StaticResource MenuButton}" Content="Edit" Grid.Row="1" Grid.Column="1"  
+                    Click="RouteMenuButtonClick" CommandParameter="EditStorageUnit"/>
+            <Button Style="{StaticResource MenuButton}" Content="Remove" Grid.Row="1" Grid.Column="2"  
+                    Click="RouteMenuButtonClick" CommandParameter="RemoveStorageUnit"/>
 
             <Border Grid.Row="2" Grid.ColumnSpan="3" Background="Transparent" BorderBrush="WhiteSmoke" 
                     BorderThickness="2" Margin="10" CornerRadius="5"/>
             <TextBlock Text="Clients" Grid.Row="2" Grid.Column="0" Margin="30 20 0 0" Foreground="Gray" FontSize="15" FontWeight="Bold"/>
-            <Button Style="{StaticResource MenuButton}" Content="Add New" Grid.Row="2" Grid.Column="0"/>
-            <Button Style="{StaticResource MenuButton}" Content="Edit" Grid.Row="2" Grid.Column="1" />
-            <Button Style="{StaticResource MenuButton}" Content="Remove" Grid.Row="2" Grid.Column="2" />
+            <Button Style="{StaticResource MenuButton}" Content="Add New" Grid.Row="2" Grid.Column="0" 
+                    Click="RouteMenuButtonClick" CommandParameter="AddNewClient"/>
+            <Button Style="{StaticResource MenuButton}" Content="Edit" Grid.Row="2" Grid.Column="1"  
+                    Click="RouteMenuButtonClick" CommandParameter="EditClient"/>
+            <Button Style="{StaticResource MenuButton}" Content="Remove" Grid.Row="2" Grid.Column="2"  
+                    Click="RouteMenuButtonClick" CommandParameter="RemoveClient"/>
 
             <Border Grid.Row="3" Grid.ColumnSpan="3" Background="Transparent" BorderBrush="WhiteSmoke" 
                     BorderThickness="2" Margin="10" CornerRadius="5"/>
-            <Button Style="{StaticResource MenuButton}" Content="Emailing" Grid.Row="3" Grid.Column="0"/>
-            <Button Style="{StaticResource MenuButton}" Content="Payment" Grid.Row="3" Grid.Column="1" />
-            <Button Style="{StaticResource MenuButton}" Content="Reporting" Grid.Row="3" Grid.Column="2" />
+            <Button Style="{StaticResource MenuButton}" Content="Emailing" Grid.Row="3" Grid.Column="0" 
+                    Click="RouteMenuButtonClick" CommandParameter="Emailing"/>
+            <Button Style="{StaticResource MenuButton}" Content="Payment" Grid.Row="3" Grid.Column="1"  
+                    Click="RouteMenuButtonClick" CommandParameter="Payment"/>
+            <Button Style="{StaticResource MenuButton}" Content="Reporting" Grid.Row="3" Grid.Column="2"  
+                    Click="RouteMenuButtonClick" CommandParameter="Reporting"/>
         </Grid>
     </Grid>
 </UserControl>

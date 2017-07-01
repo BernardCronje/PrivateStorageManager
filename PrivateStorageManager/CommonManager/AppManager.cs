@@ -9,7 +9,6 @@ namespace PrivateStorageManager.CommonManager
 {
     public static class AppManager
     {
-        public static MainWindow MainWindow { get; set; }
-        public static UserControl CurrentUserControl { get; set; }
+        public static MainWindow MainWindow { get; set; } 
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\App.xaml
-2-1805223748
+3-1296102809
 
-71217934257
+8-1042483038
 151089161532
-MainWindow.xaml;UserControls\ucMenu.xaml;
+MainWindow.xaml;UserControls\ucAddNewStorageUnit.xaml;UserControls\ucMenu.xaml;
 
 False
 
