@@ -16,4 +16,5 @@ C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageM
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageManager.exe
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageManager.pdb
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\App.baml
-C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageManager.csprojResolveAssemblyReference.cache
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucMenu.g.cs
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucMenu.baml

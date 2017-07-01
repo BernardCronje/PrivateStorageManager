@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using PrivateStorageManager.UserControls;
+using PrivateStorageManager.CommonManager;
 
 namespace PrivateStorageManager
 {
@@ -24,6 +26,16 @@ namespace PrivateStorageManager
         public MainWindow()
         {
             InitializeComponent();
+
+            AppManager.MainWindow = this;
+
+            if (AppManager.MainWindow.ucPlaceHolder.Content == null)
+                AppManager.MainWindow.SetUserControl(new ucMenu());
+        }
+
+        public void SetUserControl(UserControl newUsercontrol)
+        {
+            ucPlaceHolder.Content = newUsercontrol;
         }
     }
 }
