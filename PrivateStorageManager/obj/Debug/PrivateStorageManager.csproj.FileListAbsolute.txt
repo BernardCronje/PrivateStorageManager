@@ -21,3 +21,10 @@ C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\uc
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucAddNewStorageUnit.g.cs
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucAddNewStorageUnit.baml
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageManager.csprojResolveAssemblyReference.cache
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageManager_Content.g.cs
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\bin\Debug\Database\PrivateStorageManager.sqlite
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\bin\Debug\Simple.Data.Ado.dll
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\bin\Debug\Simple.Data.dll
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\bin\Debug\Simple.Data.Sqlite.dll
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\bin\Debug\System.Data.SQLite.dll
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\bin\Debug\System.Data.SQLite.xml

@@ -25,6 +25,10 @@ namespace PrivateStorageManager.UserControls
         public ucMenu()
         {
             InitializeComponent();
+
+            Repository.Repository repo = new Repository.Repository();
+            repo.Insert();
+            repo.Select();
         }
 
         private enum RouteMenuButtonEnum
