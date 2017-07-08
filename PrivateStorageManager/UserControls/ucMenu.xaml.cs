@@ -53,7 +53,7 @@ namespace PrivateStorageManager.UserControls
                     }
                 case RouteMenuButtonEnum.AddNewStorageUnit:
                     {
-                        AppManager.MainWindow.SetUserControl(new ucAddNewStorageUnit());
+                        AppManager.SetUserControl(new ucAddNewStorageUnit());
                         break;
                     }
                 case RouteMenuButtonEnum.EditClient:

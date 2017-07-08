@@ -22,8 +22,8 @@
             </Grid.ColumnDefinitions>
 
             <Border Grid.Row="1" Grid.ColumnSpan="3" Background="Transparent" BorderBrush="WhiteSmoke" 
-                    BorderThickness="2" Margin="10" CornerRadius="5"/>
-            <TextBlock Text="Storage Units" Grid.Row="1" Grid.Column="0" Margin="30 20 0 0" Foreground="Gray" FontSize="15" FontWeight="Bold"/>
+                    BorderThickness="1" Margin="10" CornerRadius="20"/>
+            <TextBlock Text="Storage Units" Grid.Row="1" Grid.Column="0" Margin="30 20 0 0" Foreground="Gray" FontSize="17" FontWeight="Light"/>
             <Button Style="{StaticResource MenuButton}" Content="Add New" Grid.Row="1" Grid.Column="0" 
                     Click="RouteMenuButtonClick" CommandParameter="AddNewStorageUnit"/>
             <Button Style="{StaticResource MenuButton}" Content="Edit" Grid.Row="1" Grid.Column="1"  
@@ -32,8 +32,8 @@
                     Click="RouteMenuButtonClick" CommandParameter="RemoveStorageUnit"/>
 
             <Border Grid.Row="2" Grid.ColumnSpan="3" Background="Transparent" BorderBrush="WhiteSmoke" 
-                    BorderThickness="2" Margin="10" CornerRadius="5"/>
-            <TextBlock Text="Clients" Grid.Row="2" Grid.Column="0" Margin="30 20 0 0" Foreground="Gray" FontSize="15" FontWeight="Bold"/>
+                    BorderThickness="1" Margin="10" CornerRadius="20"/>
+            <TextBlock Text="Clients" Grid.Row="2" Grid.Column="0" Margin="30 20 0 0" Foreground="Gray" FontSize="17" FontWeight="Light"/>
             <Button Style="{StaticResource MenuButton}" Content="Add New" Grid.Row="2" Grid.Column="0" 
                     Click="RouteMenuButtonClick" CommandParameter="AddNewClient"/>
             <Button Style="{StaticResource MenuButton}" Content="Edit" Grid.Row="2" Grid.Column="1"  
@@ -42,7 +42,7 @@
                     Click="RouteMenuButtonClick" CommandParameter="RemoveClient"/>
 
             <Border Grid.Row="3" Grid.ColumnSpan="3" Background="Transparent" BorderBrush="WhiteSmoke" 
-                    BorderThickness="2" Margin="10" CornerRadius="5"/>
+                    BorderThickness="1" Margin="10" CornerRadius="20"/>
             <Button Style="{StaticResource MenuButton}" Content="Emailing" Grid.Row="3" Grid.Column="0" 
                     Click="RouteMenuButtonClick" CommandParameter="Emailing"/>
             <Button Style="{StaticResource MenuButton}" Content="Payment" Grid.Row="3" Grid.Column="1"  

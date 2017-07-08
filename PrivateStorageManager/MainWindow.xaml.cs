@@ -30,12 +30,13 @@ namespace PrivateStorageManager
             AppManager.MainWindow = this;
 
             if (AppManager.MainWindow.ucPlaceHolder.Content == null)
-                AppManager.MainWindow.SetUserControl(new ucMenu());
+                AppManager.SetUserControl(new ucMenu());
         }
 
-        public void SetUserControl(UserControl newUsercontrol)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ucPlaceHolder.Content = newUsercontrol;
+            AppManager.SetUserControl(new ucMenu());
+            this.btnReturnToMenu.Visibility = Visibility.Hidden;
         }
     }
 }

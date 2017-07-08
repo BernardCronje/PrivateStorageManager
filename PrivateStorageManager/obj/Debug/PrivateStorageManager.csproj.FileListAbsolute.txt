@@ -20,3 +20,4 @@ C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\uc
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucMenu.baml
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucAddNewStorageUnit.g.cs
 C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\UserControls\ucAddNewStorageUnit.baml
+C:\Bernard\PrivateStorageManager\PrivateStorageManager\obj\Debug\PrivateStorageManager.csprojResolveAssemblyReference.cache

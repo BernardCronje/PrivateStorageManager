@@ -27,11 +27,8 @@
                     <MenuItem Header="_Exit" />
                 </MenuItem>
             </Menu>-->
-            <Button Grid.Row="0" DockPanel.Dock="Right" Grid.Column="0" Content="Return To Menu">
-                <Button.BorderBrush>
-                    <SolidColorBrush Color="Transparent"/>
-                </Button.BorderBrush>
-            </Button>
+            <Button Style="{StaticResource ReturnButton}" Name="btnReturnToMenu"
+                    Grid.Row="0" DockPanel.Dock="Right" Grid.Column="0" Content="Return To Menu" Click="Button_Click"/>
             <ContentControl  Grid.Row="1" Grid.Column="0" Name="ucPlaceHolder" />
         </Grid>
     </Grid>
